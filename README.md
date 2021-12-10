@@ -27,6 +27,12 @@
 ### Manager Scene, Scene Loader
 - Here, we used 'Manager Scene' in 'Scene system' of MRTK. 
 - Then, added the actual MR playing scene in `Scene Loader` game object with `LoadContentScene` code. 
+- XreaManage Scene contains `MixedRealityPlayspace` which is an empty object but has `main camera` as an only child, `MixedRealityToolkit` which includes configuration, `SceneLoader` which loads our main player scene (`XreaImageTarget` that has all assets for augmentation)
+![mixed reality playspace camera](imagesReadMe/scene1.png)
+![Mixed reality toolkit](imagesReadMe/scene2.png)
+![Scene Loader](imagesReadMe/scene3.png)
+![Main scene for play](imagesReadMe/scene4.png)
+
 - The screenshot below is the scene configuration of sample scene that mentor built it as a test for interaction.
 - It's a bit different from our MR main scene. This example below has its own main camera where as our main MR Play scene gets loaded by Manager component.
 ![profile setting8](imagesReadMe/15.jpg)
@@ -37,6 +43,6 @@
 ![target images](imagesReadMe/16.jpg)
 
 ### Package, Build
-![package manager list](imagesReadMe/17.jpg)
-![Universal Windows Platform Hololens for Build setting](imagesReadMe/18.jpg)
+![package manager list](imagesReadMe/17.png)
+![Universal Windows Platform Hololens for Build setting](imagesReadMe/18.png)
 
