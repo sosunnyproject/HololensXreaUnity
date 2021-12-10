@@ -35,3 +35,8 @@
 - The image size has to be in exact unit. Otherwise, it might cause the augmented models position/angle bit off. 
 - I had to change 100 to 75 for accurate recognition.
 ![target images](imagesReadMe/16.jpg)
+
+### Package, Build
+![package manager list](imagesReadMe/17.jpg)
+![Universal Windows Platform Hololens for Build setting](imagesReadMe/18.jpg)
+
